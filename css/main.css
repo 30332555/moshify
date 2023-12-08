@@ -50,7 +50,7 @@ p {
 }
 
 /* Links */
-a {
+/* a {
   text-decoration: none;
 }
 .link-arrow {
@@ -71,10 +71,10 @@ a {
   .link-arrow {
     font-size: 1.5rem;
   }
-}
+} */
 
 /* Badges */
-.badge {
+/* .badge {
   border-radius: 20px;
   font-size: 2rem;
   font-weight: 700px;
@@ -99,10 +99,10 @@ a {
   .badge--small {
     font-size: 1.2rem;
   }
-}
+} */
 
 /* lists */
-.list {
+/* .list {
   list-style: none;
   padding-left: 0;
   color: var(--color-headings);
@@ -123,4 +123,23 @@ a {
   .list--tick .list__item {
     padding-left: 0;
   }
+} */
+
+/* Icons */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon--primary{
+  fill:var(--color-primary);
+}
+.icon-container{
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
 }
