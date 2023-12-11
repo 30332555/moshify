@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="images/banner.png" type="image/x-icon" />
     <meta name="description" content="Learn Coding From Mosh" />
     <meta property="og:title" content="Moshify..." />
     <meta property="og:description" content="Moshify..." />
@@ -31,17 +31,17 @@
     <!-- NavBar -->
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"
+        <a class="nav__brand" href="#"
           ><img src="images/logo.svg" alt="logo"
         /></a>
         <svg class="icon icon--primary nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Hosting</a></li>
-          <li class="nav__item"><a href="#">VPS</a></li>
-          <li class="nav__item"><a href="#">Domain</a></li>
-          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#host">Hosting</a></li>
+          <li class="nav__item"><a href="#vps">VPS</a></li>
+          <li class="nav__item"><a href="#domain">Domain</a></li>
+          <li class="nav__item"><a href="#pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
@@ -71,7 +71,7 @@
     </section>
 
     <!-- Domain Block -->
-    <section class="block container block-domain">
+    <section class="block container block-domain" id="domain">
       <header class="block__header">
         <h2>Starting at $9 per month</h2>
         <p>
@@ -103,7 +103,7 @@
     </section>
 
     <!-- Plan Block -->
-    <section class="block container block-plans">
+    <section class="block container block-plans" id="pricing">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -169,7 +169,7 @@
     </section>
 
     <!-- Feature Block -->
-    <section class="block container">
+    <section class="block container" id="host">
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
         <p>
@@ -284,7 +284,10 @@
     </section>
 
     <!-- Showcase Block -->
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section
+      class="block block--dark block--skewed-right block-showcase"
+      id="vps"
+    >
       <header class="block__header">
         <h2>User-friendly Control Panel</h2>
       </header>
@@ -392,8 +395,8 @@
                     </svg>
                   </div>
                   <div class="media__body">
-                    <h3 class="media__title quote__author">John Smith</h3>
-                    <p class="quote__organization">ABC Company</p>
+                    <h3 class="media__title quote__author">Ashar Habib</h3>
+                    <p class="quote__organization">Domain Company</p>
                   </div>
                 </div>
               </footer>
