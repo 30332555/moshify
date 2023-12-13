@@ -24,6 +24,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
@@ -185,6 +186,9 @@ a {
 
 .icon--primary {
   fill: var(--color-primary);
+}
+.icon--toggle {
+  fill: #fff;
 }
 
 .icon--white {
@@ -602,7 +606,7 @@ a {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .collapsible--expanded .collapsible__chevron {
@@ -681,7 +685,7 @@ a {
 
 .nav__item > a {
   color: #d2d0db;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 .nav__item > a:hover {
@@ -690,13 +694,13 @@ a {
 
 .nav__toggler {
   opacity: 0.5;
-  transition: box-shadow 0.15s;
+  /* transition: box-shadow 0.5s; */
   cursor: pointer;
 }
 
 .nav.collapsible--expanded .nav__toggler {
   opacity: 1;
-  box-shadow: 0 0 0 3px #666;
+  /* box-shadow: 0 0 0 3px #666; */
   border-radius: 5px;
 }
 
@@ -859,7 +863,7 @@ a {
 .footer__copyright {
   font-size: 2.1rem;
   color: #fff;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 @media screen and (min-width: 768px) {
